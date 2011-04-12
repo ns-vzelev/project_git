@@ -1,0 +1,102 @@
+body {
+overflow:auto;
+}
+#mainContainer{
+width: 300px;
+overflow: auto;
+background-color:#FFFF88;
+margin:0 auto;
+left:1px;
+right:1px;
+bottom:0;
+top:0;
+position:absolute;
+}
+#container1{
+background-color: red;
+top:1px;
+position:absolute;
+bottom:67%;
+left:1px;
+right:1px;
+}
+#container2{
+background-color: green;
+position:absolute;
+top:33%;
+bottom:34%;
+left:1px;
+right:1px;
+border: 30px black solid;
+}
+#container3{
+background-color: blue;
+position:absolute;
+top:66%;
+bottom:1px;
+left:1px;
+right:1px;
+border: 30px white solid;
+
+}
+div{overflow-y: auto;}
+
+a.kef:hover{
+font-size:50px;
+color:green;
+}
+a.cl:link{
+color: white;
+font-size: 22px;
+}
+a.cl:visited{
+color: white;
+}
+.proba{
+background :green;
+}
+ul,li{
+display: inline;
+list-style: none;
+}
+textarea{
+height: 25px;
+}
+#divul{
+width: 350px;
+}
+#b1{
+float: right;
+clear: left;
+margin: 1px;
+
+}
+#b2{
+float:right;
+margin:1px;
+width: auto;
+height: auto;
+}
+.nums{
+//background-color: red;
+cursor:text;
+border:1px black solid;
+}
+#input1{
+left:1px;
+top:0px;
+bottom: 0px;
+margin-right: 1px;
+size:20px;
+}
+#tree{
+border: 1px black solid;
+overflow: auto;
+}
+.sm
+{
+width: 18px;
+height: 20px;
+font-size: 12px;
+content: inherit;
+}

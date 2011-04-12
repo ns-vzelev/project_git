@@ -1,0 +1,4 @@
+import t
+b = 5
+t.addB()
+print b, t.b

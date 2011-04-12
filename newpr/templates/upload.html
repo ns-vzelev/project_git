@@ -1,0 +1,19 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form Page: sampleform</title>
+   </head>
+<body>
+	<table border = "1">
+#$$$list$$$#
+</table>
+<form id='sampleform' method='post' action = '/uploadFile/' enctype="multipart/form-data">{% csrf_token %}
+   <p>
+    <input type='file' name='file' />
+   </p>
+  <p>
+   <input type='submit' name='Submit' value='Upload' />
+   </p>
+</form>
+</body>
+</html>

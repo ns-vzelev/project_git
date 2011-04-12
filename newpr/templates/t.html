@@ -1,0 +1,47 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form Page: sampleform</title>
+   </head>
+<body>
+	<table border = "1">
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> alholici.c</td> 
+    <td width = "100px">3.0KB</td> 
+  </tr> 
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> FILES</td> 
+    <td width = "100px">539.0KB</td> 
+  </tr> 
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> h</td> 
+    <td width = "100px">36B</td> 
+  </tr> 
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> README</td> 
+    <td width = "100px">123B</td> 
+  </tr> 
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> t.pyc</td> 
+    <td width = "100px">249B</td> 
+  </tr> 
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> vmlinuz-2.6.35-28-generic</td> 
+    <td width = "100px">4.0MB</td> 
+  </tr> 
+  <tr> 
+    <td width = "200px"><img src ="/static/file.jpeg" width = "30px" height = "30px"/> vmware-install.pl</td> 
+    <td width = "100px">221.0KB</td> 
+  </tr> 
+
+</table>
+<form id='sampleform' method='post' action = '/uploadFile/' enctype="multipart/form-data">{% csrf_token %}
+   <p>
+    <input type='file' name='file' />
+   </p>
+  <p>
+   <input type='submit' name='Submit' value='Upload' />
+   </p>
+</form>
+</body>
+</html>
